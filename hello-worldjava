@@ -1,33 +1,11 @@
-import java.util.Scanner;
-
-class SwapNumbers
-
+class helloworld
 {
-
-public static void main(String args[])
-
+//Your program begins with a call to main().
+//Prints"Hello,World" to the terminal window.
+public static void main(Sting args[])
 {
-
-int z, y, temp;
-
-System.out.println("Enter z and y");
-
-Scanner sct = new Scanner(System.in);   //User inputs two numbers
-
-z = sct.nextInt();   //User inputs two numbers
-
-y = sct.nextInt();
-
-System.out.println("Before Swapping\nz = "+z+"\ny = "+y);
-
-temp = z;   //Swapping is done
-
-z = y;
-
-y = temp;
-
-System.out.println("After Swapping\nz = "+z+"\ny = "+y);
-
+System.out.println("Hello world and welcome to java");
+System.out.println("we are checking whether java is installed/not");
+System.out.println("Developer will check their source code in this way");
 }
-
 }
